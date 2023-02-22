@@ -36,4 +36,5 @@ module "instance_group" {
   subnet_id_1 = module.networking.subnet_id_1
   subnet_id_2 = module.networking.subnet_id_2
   security_group_id = module.networking.aws_security_group_id
+  aws_alb_target_group_arn = module.http_lb.aws_alb_target_group_arn
 }

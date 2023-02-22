@@ -9,3 +9,7 @@ variable "subnet_id_2" {
 variable security_group_id {
 
 }
+
+variable aws_alb_target_group_arn {
+    default = "target-group-arn"
+}
